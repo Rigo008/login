@@ -1,93 +1,82 @@
-.section-movil{
-    max-width: 375px;
-    padding: 2rem;
+
+
+.login-background {
+    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
+    padding-top: 6.7rem;
 }
-.section-body{
-    width: 130rem;
-    height: auto;
+
+.banner-login img{
+    width: 29.5rem;
+    align-self: flex-end;
+}
+.banner-login h2 {
+    color: #fff;
+    font-size: var(--size-h1);
+    font-weight: 600;
+}
+.banner-login span {
+    font-size: var(--size-h3);
+    font-weight: 300;
+    color: #fff;
+}
+
+.formulario-login {
+    background-color: #fff;
+    border-radius: 4rem 4rem 0rem 0rem;
+}
+.formulario {
+    width: 31.5rem;
     margin: auto;
-}
-/* -----------------*/
-.section-imagen{
-    width: 3rem;
-}
-.section-ram{
+
     display: flex;
     flex-direction: column;
 }
 
-.section-ram__img{
-    width: 100%;
-}
-.section-ram__titulo{
-    font-size: variable(--h2);
-    color: var(--texto);
-    margin-top: 1rem;
-    font-family: 'Roboto', sans-serif;
+.formulario__label {
+    font-size: 1.2rem;
+    color: var(--gris3);
+    margin-bottom: 3.5rem;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.section-ram__descripcion{
-    font-family: var(--letra);
-    font-size: var(--parrafo);
-    color: var(--texto);
-    margin-top: 1rem;
-    text-align: justify;
-    
-}
-.section-ram__botonVerMas{
-    min-width: 10rem;
+.formulario__label input {
+    width: 100%;
     height: 4rem;
-    border-radius: 5%;
-    background-color: var(--verde);
-    color: var(--texto);
-    font-size: 1.8rem;
-    font-weight: 600;
-    text-decoration: none;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    align-self: flex-end;   
+    border: none;
+    border-bottom: 1px solid var(--gris3);
+    outline: none;
+    font-size: var(--size-parrafo);
 }
-.section-ram__botonVerMas:hover{
-    background-color:  rgb(102, 106, 102);
-    transition: 0.3s;
-    border: 0.1rem solid black;
-}
-/*************************/
 
-.section-movil__titulo{
-    text-align: center;
-    font-size: var(--h2);
-    margin-top: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-}
-.section-movil__imagen2{
-    width: 100%;
-    margin-top: 6rem;
-}
-.section-movil__descripcion1{
-    font-family: var(--letra);
-    text-align: center;
-}
-.section-ram__botonVerMas2{
-    min-width: 12rem;
-    height: 3.5rem;
-    border-radius: 5%;
-    background-color: var(--gris);
-    color: var(--texto);
-    font-size: 1.8rem;
-    text-decoration: none;
-    
+.formulario button {
+    height: 5.4rem;
+    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
+    border-radius: 1rem;
+    color: #fff;
+    font-size: var(--size-parrafo);
+    font-weight: 600;
+    border-style: none;
+    cursor: pointer;
+
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:center;
     align-items: center;
-    margin-top: 1.8rem;
-    align-self:center;   
+
+    position: relative;
 }
-.section-ram__botonVerMas2:hover{
-    background-color:  rgb(102, 106, 102);
-    transition: 0.3s;
-    border: 0.1rem solid black;
+.formulario button img {
+    width: 2.5rem;
+    position: absolute;
+    right: 2.8rem;
+}
+
+.formulario__mensaje {
+    color: var(--gris1);
+    font-size: var(--size-parrafo);
+    margin-top: 2rem;
+
+    align-self: flex-end;
 }
